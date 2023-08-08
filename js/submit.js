@@ -67,9 +67,9 @@ async function submit() {
             typeString = "not playing anything";
           }
         }
-        document.getElementById("presense").innerHTML = "Presense: " +typeString + " " + activity;
+        document.getElementById("presence").innerHTML = "Presence: " +typeString + " " + activity;
       } else {
-        document.getElementById("presense").innerHTML = "Presense: not playing anything";
+        document.getElementById("presence").innerHTML = "Presence: not playing anything";
         return;
       }
   } else {
