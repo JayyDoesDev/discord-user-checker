@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Indie Flower');
+
+body {
+    background-color: #15171a;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Pacifico';
+    overflow: hidden;
+    white-space: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    line-height: 1px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.icon-container a {
+    padding-left: 5px;
+    margin: 0 10px;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    float: left;
+    position: absolute;
+}
+
+.icon img {
+    color: white;
+    filter: brightness(0) invert(0.3);
+    width: 40px;
+    padding-right: 10px;
+    transition: 0.4s;
+}
+
+.icon-container a :hover {
+    filter: none;
+}
+
+.icon-mobile-container {
+    display: none;
+}
+
+#github-effect {
+    transition: 0.4s;
+}
+
+#github-effect:hover {
+    filter: brightness(0) invert(1);
+}
+
+.container {
+    color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+.box {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #111214;
+    padding: 10px;
+    padding-bottom: 0;
+    border-width: 12px;
+    width: 80%;
+    max-width: 600px;
+    line-height: 1.2;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+.profile {
+    position: relative;
+    align-items: center;
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 10px;
+}
+
+.pic {
+    width: 128px;
+    height: 130px;
+    border-radius: 100%;
+    border: 4px solid pink;
+    transition: 0.4s;
+}
+
+.user-box {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px; 
+}
+
+.user-box p {
+    margin: auto;
+}
+
+#user-flags {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.box:hover {
+    color: white;
+    background-color: #7289DA;
+}
+
+.box:hover .pic {
+    border-color: white;
+}
+
+input {
+    background-color: #111214;
+    border-color: transparent;
+    border-radius: 10px;
+    color: pink;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    outline: 2px solid pink;
+}
+
+.button {
+    text-align: center;
+    font-family: 'Pacifico';
+    background-color: #111214;
+    border-color: transparent;
+    border-radius: 10px;
+    border-radius:6px;
+    padding: 20px;
+    transition: 0.4s;
+    width: 100px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #7289DA;
+}
+
+.lookup-container {
+    font-family: 'Indie Flower';
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.status-container {
+    position: relative;
+    width: 128px;
+    height: 130px;
+}
+
+#status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-color: transparent;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.instruction {
+    line-height: 10px;
+    color: pink;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #111214;
+    position: fixed;
+    bottom: 0;
+    color: pink;
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow: visible;
+    }
+
+    .duc {
+        font-size: 20px;
+    }
+
+    .icon-container {
+        display: none;
+    }
+
+    .icon-mobile-container a :hover {
+        filter: none;
+    }
+
+    .icon-mobile-container {
+        text-align: center;
+        display: contents;
+        line-height: 110px;
+        overflow: hidden;
+    }
+
+    .icon-mobile-container img {
+        text-align: center;
+    }
+    .icon {
+        float: none;
+        position: relative;
+    }
+    
+    .icon-mobile-container a {
+        margin-left: 100px;
+        margin: auto;
+    }
+    
+}
