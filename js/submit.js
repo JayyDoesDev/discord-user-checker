@@ -37,7 +37,7 @@ async function submit() {
         document.getElementById("status").src = "../assets/streaming.png";
         break;
       default:
-        document.getElementById("status").src = "../assets/online.png";
+        document.getElementById("status").src = "../assets/offline.png";
     }
 
     if (res.presence.activities) {
