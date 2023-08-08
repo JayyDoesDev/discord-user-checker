@@ -5,15 +5,8 @@ Discord User Checker, uses [JAPI](https://japi.rest) for fetching users.
 Go to https://duc.jddev.wtf to use Discord User Checker!
 
 ## Desktop
-<img src="" alt="desktop">
+<img src="https://github.com/JayyDoesDev/discord-user-checker/blob/main/.github/assets/desktop.png" alt="desktop">
 
 ## Mobile
-<img src="" alt="desktop">
+<img src="https://github.com/JayyDoesDev/discord-user-checker/blob/main/.github/assets/mobile.png" alt="desktop">
 
- <style>
-    @import url('https://fonts.googleapis.com/css?family=Pacifico');
-    h1 {
-        font-family: 'Pacifico';
-        color: pink
-    }
- </style>
